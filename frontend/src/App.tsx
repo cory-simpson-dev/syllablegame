@@ -3,7 +3,8 @@ import RulesModal from './components/modals/RulesModal'
 import RulesToggle from './components/buttons/RulesToggle';
 import GameTitle from './components/headings/GameTitle';
 import RoundTitle from './components/headings/RoundTitle';
-import NewGame from './components/buttons/NewGame';
+import LargeButton from './components/buttons/LargeButton';
+
 // add logic/state for rules in local storage
 
 // add logic/state for starting new game > starting timer in current round > assign points > switch teams > next round/end game
@@ -18,7 +19,7 @@ function App() {
 
       {/* if not in game currently, show: */}
       <GameTitle />
-      <NewGame />
+      {/* <LargeButton /> */}
       {/* else, if in game, show: */}
         {/* if round is inactive, show: */}
         {/* <RoundTitle /> */}
